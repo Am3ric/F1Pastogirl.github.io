@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARYAAAC1CAMAAACtbCCJAAABOFBMVEX////iBAMAAAD///3hAAD/+fbBMzX8/PzjAwPYAADZdnH//f7JycngBQPT09PYdXzYoqLisa+Xl5eAgIA6OjqHh4ckJCQcHBz/8/R1dXXx8fHKIiJaWlqtra2hoaHmAADn5+fPAADTAADIAAC3t7fi4uL6//n3///FxcXAAADQ0NCzs7Pk5OT/+fH9+P7sAAAXFxfJT0/KJS7LfH3TeHb+6uRnZ2cvLy9TU1NISEhubm7/8vXw3N3ozMvqsLPhpqLemZrdhIrYanPPWl7CQD69JyqrPkT14+3ahoLJEhamQkz23dTRin7KMDG8GhXYo5TywcS+S0D14Nbvy8DBTlW1NDnOLS/RZWDJO0LxvcfgtrjehILLlZfmmZ7IcnX66976+urNPjzQR1Ty1cbCYmTSVF6xBR7QpZ8lY6XhAAAR2UlEQVR4nO1cjV/TSBpOTcpkTIcVEbdUYWgKGVCbWqXiShH2LLdwlT11Ubi987jd427////g3ncmpWmaCR9Nir/7zbPqtukkeefJzPN+zLSWZWBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYJAFz0u89fCIPTXALeF26uZ2hpGyradrkC+Gt7Ll6ws+pnP7CyPswdO57MbF80LQiiAg8H+PyDe2NLE8TTSb5WoZbkpIsN0pVzXYhr/wYadaFUWzAowIEhI5Pkm1u/N2d+/HP71r93q9mSni88z+n3/yAhKWD/Zf7L94pMMX+OjF4V9qHvEKHjC27YWWXe7PvW8fHfo+pT5lzHE4dxj8NyW02KO+R4QIDuqtFrznmnaMtzjf73uhXSgtHpBCmp17Jz9vUIdRBvYwlwFc1y2x0pTgOvxR3xKBB6xQeCiu7nmUXObS/S6M7sJUT0oqzNHuX3u+73BggTIFzuHd1MCgr3ymH3hlEf5Yb3EwoFRy3BSU4A9t7XdFiBpYCDHECoLAtsMP7xrwZFwcHYy7MErBKEVOyZkaLXy/GwRhQH70fTCDpT4TOYQ59/f7QhTnIlFRRPjrx4YzzZGR3l//Rd+WattoMaq1hroupfxFX3rLogDyZu+06xzsuGVaXPaoYwtQ2/eU85JmrMC0wgHtzHwSpBjnrEI3ITqbDYqz1ZnSZEkDTF6HfulbQZk0D/wSrZdK6U8JOaGu86UL0UQhrCAxHszOD/usBWZNzdtoOuvAtICRIsKXdRB6rTlw3KUcx0oRcwgjWYtAgFC+2+CucsZTJSLRWRaprfD+7gNHJY56P9bMlQfBM3dEQQkJREEeeOVPvYbbut2RggC1PerbEGSXXzYyzMEoilLnRd8LCkqGkBYR/LIBj6lEb50WqbaBim253hygBez9/EkUoCsRzYSE3t4GzmKq0/ypgEm1Pep7ohmC2jLqM13A4rqcllBtCfHyDvk9/CNTVPugAXMYo6bbpQXSHlRbW9gvZWwLgVw6LeCcfY6xrV1AZCsEqApkyx0IVkrMcXWucEpAtZ2BGUSEvelDruM6qeGtVFu3RXsd4RUS3HohBCuh3Tm+3ckzQKS2gsjYNlttfefoE/jlYtQW3DKMlRmn5d661JZQbb+g2kIUV+dulvjD1GqB2pL8K5Vy8NmQuJOdGXoZK04pPpqKiIAdDK3pPrjbJoEZRDVqi1rDSqi2LzqksNjWtkjQ/S8kyTTTZhal0KoDheQFqBbsSxdjWxtjW53ayqpPiTozXYGuIndGIGAGuonVP+ROWhQ5Aqw+RZUFfBe9yFGOXAYp4eeOBf6WgNoCR05qrM1UKYGh2hYS2wr096H48Iheni4zpf5gLUMuiihbwviY6eCTKkMUl/GUgBRK6dFZWFB5MoAhKMTOYQsS90uB09zlCPm4BjXUPOFDcoOVhM1stQVDeAuceFFVJ8iYBfmwAcGKqxELsCCK7hyHMkobGz/P9NonJ3c3Ed/li83v+hbmQXepLra9UFs28xP4zyB3WqRQeVZg7TzCUr42b6dcqgin9S8n7+d2up2y7SUXGnOCkEswhIDatuSM1agt59Q5XRGylJC3IVJsQ5hBDY4VYj0vMF04bbTn+mUrWt+TS0jgLAhWIiBnwH8mBcROJIBgW4TknxTVtpQeLkRq+7kjsLqaMydIi4e9EX/boNkhCHddf+N91/PwSdpFVkuBFQihypt+ttpySGVnzoqMbYUAXQG1zXJCMFIOqiq/9ixSLne6O7/O3dv7+uPB3zc37+aHP/3DC8Gi5mYD+62nBSzin8+KiG0jWmAOfdjgIGAZo8Xl9eOuhYWPIPj0y/vzz/VGHXwjZVw5aHRIQ680ASh01QO13aQluHqqrCiDYLScdsrFxLbg2jwReB8OaanFqGa04Cxmja9VuVJX/fp73cflMwcdhIp4HUd6bKy7TwLwg5wedZqgod4/G6C2jk5t8TFJtSV2AdPZIyBXMGA/gNoyTSKEokddpzGHMZ/d32xAAOqoisNFVRVjdfV6omAFrkpnOgLXg6TaqqkybhEOInYR2xZQScDYVoDaameP9Ewud2b6Ac73lw2GY0LXekKwkn+KRRMB8QqOXW075jo+PT0LClJbT6rtXIMyvdjK59g7A1Xxdo7kdNIuX00K1+l1sA7WvItrdnpaILhuOe1C1FYOPhCLwHu7gfF12hR2VcxA6x/PCMSRu3WKqSwvYrQ4srenHUsEYXWTulhGTrNJznSXOrQHEX8RaovXJMKGsQIuKM0EuQKO9fR6ezsUctmIY75fSIEX0vYS/a0DPfXKqLaYgmhjW7Ch10VdKYCXEIWF2HMNR1M3liIKLpeelyGO7bxjKonMmG+TAB5AD+u2oXdOkf30aFumH0BMD2Pb/Dmx1D5JIt5uOBlJEIewxN/8V1mI6kcwtsACL9ys10Gha27Slr4MhrsEQHV6ncJKcbhGFsyhZ3HSuyuDkpZ/0ISWP53SQhcYWQnU1rIJqG3DyYhtXfiQt9qdADSxEFYwJUO1hRms887gDXjjfTMMRafHituzAFd2IAg5w7Bye5NypbZpj0oGNqArWLctghVwQ1hf2W04apEleX/c94RumPt7zaoQZ7+BayiMGPR3tFeVUdw5yLrrXFR2xmkB0qCpKGQTJeS/hNTE2wbXpO0QWeMk5v5uGdLZzqlzhZLdjYG1OBQL4pWl2pbSY1uMqXFotzsFbbj1MAkOgr2Gdu8XPK4WZDr1XZt49tlvxe4RY9SBAQBJc7bauj4MWYfKKC7voSKvhx6I2H+F4Ixr8iCc26Arcza03J6hmkJQHgDCGaitaAaieVLnNKOSgM+KtXFY5R7bquV8cC3h3kYrfZsGUoAFdWAFsnbR+e2qlNzQVTmsDWprk+Y5c/VqixMbx0pBlQQbXBBO413QFSdNbXGkyOywMScgw++cMm28grtzh7XfQQaZtltWC0ZbtA1qK0j5RMUKqUG03BrtUv/37WIqCTaxy7Yoh/cgZ9Z11ofnwvjGXNkLCLKSsVPboW5pkCWp0sA1SwsgLO0OJvKotlkpMzpGp10taGe2Hdg2pDd7DVcfw+OWdbbxiw1Jx9mRJtQbNATKcMQMgnIk6DrgMFYgNAO1PactV0+LjBeU2ubOiPyaEpZXwt26LKylPBQcAZBPtw5/CSAQh9i2pM0NcLKzllpAozeFfww5M0T8J76D60Fpd1GDxW2hZxb5+2Ybvx0FKg5q26Dp2WE0CWhr40M5kGrLdDoKvhI0qH54+p/vXu7t7e3e270nMXc93KvCoCTVgdqmSh3+Sx3n+CwUQf4rHxguBQiIVyhPTYSl2FHmHP4bbCWdGaZbNVJR8MbLt52yNdEDxEVSsn1Sj9Q2xSZ4SiXeYj4IM7GC/CeRF8q9DmKvoa2uqUJC62f82g45O9XuIecw3lt088yeeEyTKLbVhisyX6UOb3e8ooJbIcA3f2209GqBmysd/H6F53WOtLEtLnz4hzsBED3pmJZqy0Bt9TVTyJplbFsQK+CbQ2J/9VnqPkGpbDC1OP/8KQjtoHuK5fVxI1XFn/PeJ1mumcgg+BsEzXeZaiu3ujjts6AAJ2QNBLe5V0+fwWpnv0sd3BVBhOgepe8qBKWVvlildhOahI9Kqi3TqS2TtDjHMIOKqCQQ+bVUERz4kKE6ae5FlgJBWGa6IvQEqG16zswwvGC8XZUzfTJLMY2vnvh6tUW+IGuTaluAD8IpHNgk/Nf7urbuyKSLdGTh0P50RDWVBNf1oeHHs8lt9LxAhBjFZW7qgenltJsFfWvKxmK2KL8HtdXRIqMG1jtD19A5cnTFfe76Lv19G8bexDbZGMXRVlbIXwKxo8dn+A27PGgYN8EWQfOgTrUlNlcpG+oKqK2c63Lpxhn9g4Ug+nGbhF44KS/Iyju1j1/7DDAPerctIIorhhdii+rLOs/4yhSnlB83wbWI7j6n2i/yAq/HZdwmBLHVZJZCFHeOpVCXaycR2nS+HRJSxEZ+S0UHB3VMzZgm7wefS0+qEK4E/X1WYrpl+hIHVsJBdjWRSWL7P7i64apicrpNLgObivsVCVIjLzcuSdrq501gRfT/62emdqh/EwdWNmYix3WWeSu06d3Z5CKWYUa5+8cgl9Pgj3uoGML6NbvZvaaXQ1yFP6qx9o/sGwF2/6gSr8hf/MCM/LLLg2cOodklQwFzmBwE0CPeFaL5AL+5WxwtmPldsuKkAj7cW5j5MzVyE/ykaqts8rD8mFmAFGTC9OIS4GoZsaKf50kF/lQNkbts7ct+vQfHUw60yB+A0Rs0+CGhKf1mj4GBgUF+yPjVgUJ+kOAGQDuuZ8vElmee/42wMvK/a5wxEVbnFzSYr+Vw+Rxwf35+fnHtGic8W1xQnZpfWLrOeSM3vaPFTS+ZM7bQltlrnLAW78Sr2o1Gz7dPy4OJaLnzytCisJboxs1pefj9OG52vfxxA1oGPZBYuslNJS2PrdRvwQ3akJjHku4yfgEy+qkVeYK4k0yjd/TjhEckw+vEaEn1u2mHBlh5jqcupNz9UkS0ZEDdeGVtdhb+rFjJPowae0HaCK+Di5CU08jYR4ljw9FyCb3jWCyOFrhtZX4rNlcXVxMtautLC/MKq2glvlmswYvZZXV8eX1g+5Oo5f3Vofcni3hktHc1PLaoeBjS8mRxfgQL91crJCtOKYwW6Ob6wzExXrp4RsRaexz74D4ek0O3Zs0+iH2wjKNj/fvYkccrg/7Itwla5DH1ekjLappjePxEz0tRtEBnFtNseU0GCvJk5LikRdJYG/0Ab5Hs1aA/V6ZlPc0UvKmOl8JosVJZuXPnh8GkTrFQ0ZI8Y95KHoERJS9yZVpSRwtgXcdLQbQQ62nUp8raykqttlJbe7K8FfXSSrF0SMvymPELY0fmr0lL5fXjUbx6Jds9ny4tJDJ5a2XkmOrfrLRlXr5+UFkZ+B8rouXBD5VIVWuVHyIa3sxGrWqrSmXUiLsqLeN9fxbpmi6qKYoWNRhWEgZJY5SfkC+3Rj+XtGzFj6gBthjr2DN5pCJfX3m0jNgGuBh/uoitKFpexcb60KDZYUceKKtGOvVwzNIlecLaRTO43ptho5vQMuohdT2fkJatpeVxrMGtY890aJFFnl9YKm1+MtrgoeIgBsnj9/FLWMtDi69PC1hWi+bPc/Xg0jEhLamAGGxFzaHEKcSSYvFUY3PkieJH5JR5ONJoSU0rxA1GC4kU/fn60rRpqURP+U7yFKIUZVlns6Il3s+VnGlZi0R8vmZNnZZ1HS2R0C5obE4ZLTnSQiDYiaT2ITpDQ4sEuYh1l2W6WSQtr0ltHOQbpAWkVkVwmFLJ90XSootyvzlaBlH3ndVB0GBoAbxRpCwOS1+GlsgD3tmK3+/pt0bL/RGbYyhstCj3MBp03wYtaykW41N7jYcviVviR/KghUQHF0YzjdugRRmSXBiJotzVmM0juBEto0uYqbTIvDVZRLgNWlT9cTVhCVFGr8RsHsGNaFkZmRqptMgo7s23QMui+jSRQa8Oe5kHLdHYu4SWqLaTpGV1+rQQqyLNS6bQsnyiKqh50CK7uzVygn60JGbbbdBiRV3EPGCIZz/EzMuDFsX998uVJ7MDVNJoUaHc1tNhM8D9BC2E1Iafy4j4zcXba2x7uYSWqH6/tfB0VeLp/dfqyGpybevGtBArvgoVR4KWsar5BeK0aAvhsqSeEy3WeKlaYuAmc6GlciVaBrMomxbtssmdQek4D1qiXCyJi5JkHpNIu9KRvAV5MxktV97HRKIMWt8gsWyorBiORklBomg5bsKzWC/jtLwaWPEsdTkqcQuwpTJmi8Ti8LokD1osMlupVNYz1ivxk9rS/AO1NeLhw8cL6/Fl3wqenlgZWMdj8eocqclDI43W8FAkgvKftSeVBKKV68o6Xm54YrIZXid2L7KyntJConblSRSzK6NR2jkjB0b3GyQbRdsyEkFhvFH63kgy1lJjaHxXSIaAXENbYhtJrnS55PaWlNsRYqXRktpouMSvvevI2akbFMiVabk6LwYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYG/8f4H5TNM+qlwp6vAAAAAElFTkSuQmCC">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link href="https://blogfonts.com/css/aWQ9MTUxNTEzJnN1Yj01MTMmYz1mJnR0Zj1Gb3JtdWxhMS1Cb2xkX3dlYl8wLnR0ZiZuPWZvcm11bGExLWRpc3BsYXktYm9sZA/Formula1 Display Bold.ttf" rel="stylesheet" type="text/css"/>
+    <link href="//db.onlinewebfonts.com/c/4944f4308352f169f622b1f098fa2203?family=Formula1+Display+Wide" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<div class="backgr"></div>
+
+<div class="content">
+
+<div class="header">
+    <div class="txt1" id="txt1">
+        <img src="F1-Logo.png" id="f1l" alt="">
+       <p><b>  PASTOGIRL </b></p>
+       <p id="txtt">TOURNAMENT</p>
+    </div>
+</div>
+
+<div class="icon">
+    <a href="#" class="fa fa-instagram"></a>  
+</div>
+
+<div class="main-cls">
+
+    <div class="lead left"><p class="clas">CLASSIFICA PILOTI</p> 
+            <table class="table">
+            <tr>
+                <th>POSIZIONE</th>
+                <th>PILOTI</th>
+                <th>PUNTI</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Gaetano</td>
+                <td>52</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Ago</td>
+                <td>33</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Frara</td>
+                <td>27</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Gem</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Nick</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Petri</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Vincenzo</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Pesca</td>
+                <td>0</td>
+            </tr>
+            <tr>
+ 
+              </table>
+              
+        </div>
+        <div class="arr">       
+            <i class="bi bi-arrow-right-square-fill"></i>
+           </div>
+        <div class="lead right"><p class="clas">CLASSIFICA SCUDERIE</p> 
+            <table class="table">
+            <tr>
+                <th>POSIZIONE</th>
+                <th>SCUDERIA</th>
+                <th>PUNTI</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Williams</td>
+                <td>79</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Ferrari</td>
+                <td>33</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Mercedes</td>
+                <td>28</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Alpha tauri</td>
+                <td>4</td>
+            </tr>
+
+ 
+              </table>
+        </div>
+
+
+
+</div>
+
+
+
+<div class="main-cls">
+
+    <div class="lead left"><p class="clas">GARE</p> 
+        BAHRAIN <br>
+        <img class="circ-img"src="gp-bahrain.avif" alt="gp bahrain">
+                <br>
+                
+        Risultati Gara:
+        <table class="table">
+            <tr>
+                <th>POSIZIONE</th>
+                <th>PILOTI</th>
+                <th>PUNTI</th>
+            </tr>
+            <tr style="background-color: rgba(172, 53, 252, 0.731);">
+                <td>1</td>
+                <td>Gaetano</td>
+                <td>26</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Gem</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Ago</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Frara</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Nick</td>
+                <td>10</td>
+                <tr>
+                    <td>8</td>
+                    <td>Petri</td>
+                    <td>4</td>
+                    <tr>
+
+                            <tr>
+                                <td>18</td>
+                                <td>Vincenzo</td>
+                                <td>0</td>
+                                <tr>
+                                    <td>20</td>
+                                    <td>Pesca</td>
+                                    <td>0</td>
+              </table>
+    </div>
+    <div class="arr">       
+        <i class="bi bi-arrow-right-square-fill"></i>
+       </div>
+    <div class="lead right"><p class="clas">GARE</p> 
+        Jeddah <br>
+        <img class="circ-img"src="jeddah_circ.avif" alt="gp bahrain">
+                <br>
+                
+        Risultati Gara:
+        <table class="table">
+            <tr>
+                <th>POSIZIONE</th>
+                <th>PILOTI</th>
+                <th>PUNTI</th>
+            </tr>
+            <tr style="background-color: rgba(172, 53, 252, 0.731);">
+                <td>1</td>
+                <td>Gaetano</td>
+                <td>26</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Ago</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Frara</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Petri</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>RIT</td>
+                <td>Vincenzo</td>
+                <td>0</td>
+                <tr>
+                    <td>RIT</td>
+                    <td>Nick</td>
+                    <td>0</td>
+                    <tr>
+
+                            <tr>
+                                <td>RIT</td>
+                                <td>Pesca</td>
+                                <td>0</td>
+                                <tr>
+                                    <td>RIT</td>
+                                    <td>Gem</td>
+                                    <td>0</td>
+              </table>
+    </div>
+
+
+
+</div>
+
+
+<div class="header" style="margin-top: 10%; ">
+    Prossimo GP
+<p></p>
+   Australian Grand Prix
+   <br>
+   <br>
+</div>
+</div>
+
+
+
+    
+</body>
+</html>

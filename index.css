@@ -1,0 +1,323 @@
+@import url(//db.onlinewebfonts.com/c/4944f4308352f169f622b1f098fa2203?family=Formula1+Display+Wide);
+@font-face {font-family: "Formula1 Display Wide"; src: url("//db.onlinewebfonts.com/t/4944f4308352f169f622b1f098fa2203.eot"); src: url("//db.onlinewebfonts.com/t/4944f4308352f169f622b1f098fa2203.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/4944f4308352f169f622b1f098fa2203.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/4944f4308352f169f622b1f098fa2203.woff") format("woff"), url("//db.onlinewebfonts.com/t/4944f4308352f169f622b1f098fa2203.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/4944f4308352f169f622b1f098fa2203.svg#Formula1 Display Wide") format("svg"); }
+
+@media only screen and (max-width: 592px) {
+    /* stili CSS da applicare quando la larghezza dello schermo supera i 900 px */
+
+*{
+
+ 
+    color: rgb(255, 255, 255);
+    
+
+
+}
+body{
+
+}
+
+.backgr{
+
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: block;
+    background-image: url("mon.JPG");
+    background-position: 80%;
+    width: 1200px;
+    height: 100%;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    pointer-events: none;
+
+}
+.header{
+
+    font-family: "Formula1 Display Wide";
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 22%, rgba(217,0,0,1) 100%, rgba(255,0,0,1) 100%);
+    border: 3px solid black;
+    
+
+}
+.content {
+
+    position: relative;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+
+}
+
+
+#f1l{
+
+max-width: 70px;
+max-height: 700px;
+
+}
+
+#txtt{
+    font-size: 13px;
+}
+
+.main-cls{
+    display: flex;
+    gap: 10%;
+    overflow-y: scroll;
+
+
+
+
+
+
+    
+
+}
+.main-ris{
+
+
+    justify-content: center;
+
+    display: flex;
+}
+.lead{
+
+    border: 3px solid rgb(248, 38, 38);
+    width: min-content;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.685);
+    border-radius: 16px;
+    margin-top: 40px;
+    text-align: center;
+
+
+
+
+
+}
+
+.lead.right{
+    margin-right: 18%;
+}
+.lead.left{
+
+    margin-left: 20%;
+
+
+}
+.lead.center{
+
+
+}
+.arr{
+    box-shadow: 0px 2px 10px 0 rgba(0, 0, 0, 0.692);
+    margin: auto;
+    min-height: 250px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+.clas{
+    font-size: 24px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.table{
+    font-size: 67%;
+    margin: auto;
+}
+.table tr td{
+
+background-color: rgba(162, 5, 5, 0.306);
+
+}
+
+.icon{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+    
+}
+
+.fa-instagram {  
+    background: #ffffff00;  
+    color: white;  
+    
+    
+
+  }  
+  .circ-img{
+    margin-top: 10px;
+    width: 100%;
+
+  }
+      }
+
+
+ @media only screen and (min-width: 592px){
+
+    /* stili CSS da applicare quando la larghezza dello schermo supera i 900 px */
+
+    *{
+
+ 
+        color: rgb(255, 255, 255);
+        
+    
+    
+    }
+    body{
+    
+    }
+    
+    .backgr{
+    
+        position: fixed;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        display: block;
+        background-image: url("mon.JPG");
+        background-position: 80%;
+        width: 1200px;
+        height: 100%;
+        -webkit-filter: blur(5px);
+        -moz-filter: blur(5px);
+        -o-filter: blur(5px);
+        -ms-filter: blur(5px);
+        filter: blur(5px);
+        pointer-events: none;
+    
+    }
+    .header{
+    
+        font-family: "Formula1 Display Wide";
+        text-align: center;
+        justify-content: center;
+        padding-top: 10px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background: rgb(0,0,0);
+        background: linear-gradient(90deg, rgba(0,0,0,1) 22%, rgba(217,0,0,1) 100%, rgba(255,0,0,1) 100%);
+        border: 3px solid black;
+        
+    
+    }
+    .content {
+    
+        position: relative;
+      left: 0;
+      right: 0;
+      z-index: 9999;
+    
+    }
+    
+    
+    #f1l{
+    
+    max-width: 70px;
+    max-height: 700px;
+    
+    }
+    
+    #txtt{
+        font-size: 13px;
+    }
+    
+    .main-cls{
+        display: flex;
+        gap: 10%;
+        overflow-y: scroll;
+        justify-content: center;
+        align-items: center;
+    
+        
+    
+    }
+    
+    .lead{
+    
+        border: 3px solid rgb(248, 38, 38);
+        margin: auto;
+        width: min-content;
+        padding: 10px;
+        background: rgba(0, 0, 0, 0.685);
+        border-radius: 16px;
+        margin-top: 40px;
+        text-align: center;
+        justify-content: center;
+    
+    
+    
+    }
+    .lead.right{
+        margin-right: 18%;
+    }
+    .lead.left{
+        margin-left: 20%;
+    }
+    .lead.center{
+    
+    
+    }
+    .arr{
+        box-shadow: 0px 2px 10px 0 rgba(0, 0, 0, 0.692);
+        margin: auto;
+        min-height: 250px;
+        align-items: center;
+        justify-content: center;
+        display: none;
+        
+    }
+    .clas{
+        font-size: 24px;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+    }
+    .table{
+        font-size: 67%;
+        margin: auto;
+    }
+    .table tr td{
+    
+    background-color: rgba(162, 5, 5, 0.306);
+    
+    }
+    
+    .icon{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-top: 20px;
+        
+    }
+    
+    .fa-instagram {  
+        background: #ffffff00;  
+        color: white;  
+        
+        
+    
+      }  
+      .circ-img{
+        margin-top: 10px;
+        width: 100%;
+
+    
+      }
+         
+
+
+ }
