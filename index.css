@@ -23,8 +23,7 @@ body{
     font-family: "Formula1 Display Wide";
     background-repeat: no-repeat;
     background-size: cover;
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 22%, rgba(217,0,0,1) 100%, rgba(255,0,0,1) 100%);
+    background: rgba(0, 0, 0, 0.623);
     border: 3px solid black;
     padding: 10px;
     margin: auto;
@@ -72,8 +71,8 @@ body{
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 22%, rgba(217,0,0,1) 100%, rgba(255,0,0,1) 100%);
+    background: rgba(0, 0, 0, 0.773);
+
     border: 3px solid black;
     
 
@@ -121,10 +120,10 @@ max-height: 700px;
 }
 .lead{
 
-    border: 3px solid rgb(248, 38, 38);
+    border: 3px solid rgba(0, 0, 0, 0);
     width: min-content;
     padding: 10px;
-    background: rgba(0, 0, 0, 0.685);
+    background: rgba(0, 0, 0, 0.741);
     border-radius: 16px;
     margin-top: 40px;
     text-align: center;
@@ -216,8 +215,7 @@ max-height: 700px;
         font-family: "Formula1 Display Wide";
         background-repeat: no-repeat;
         background-size: cover;
-        background: rgb(0,0,0);
-        background: linear-gradient(90deg, rgba(0,0,0,1) 22%, rgba(217,0,0,1) 100%, rgba(255,0,0,1) 100%);
+        background: rgba(0, 0, 0, 0.773);
         border: 3px solid black;
         padding: 10px;
         margin: auto;
@@ -266,8 +264,7 @@ max-height: 700px;
         width: 100%;
         background-repeat: no-repeat;
         background-size: cover;
-        background: rgb(0,0,0);
-        background: linear-gradient(90deg, rgba(0,0,0,1) 22%, rgba(217,0,0,1) 100%, rgba(255,0,0,1) 100%);
+        background: rgba(0, 0, 0, 0.773);
         border: 3px solid black;
         
     
@@ -306,7 +303,7 @@ max-height: 700px;
 
     .lead{
         
-        border: 3px solid rgb(248, 38, 38);
+        border: 3px solid rgb(0, 0, 0);
         margin: auto;
         width: min-content;
         padding: 10px;
@@ -403,8 +400,7 @@ max-height: 700px;
         font-family: "Formula1 Display Wide";
         background-repeat: no-repeat;
         background-size: cover;
-        background: rgb(0,0,0);
-        background: linear-gradient(90deg, rgba(0,0,0,1) 22%, rgba(217,0,0,1) 100%, rgba(255,0,0,1) 100%);
+        background: rgba(0, 0, 0, 0.773);
         border: 3px solid black;
         padding: 10px;
         margin: auto;
@@ -453,8 +449,7 @@ max-height: 700px;
         width: 100%;
         background-repeat: no-repeat;
         background-size: cover;
-        background: rgb(0,0,0);
-        background: linear-gradient(90deg, rgba(0,0,0,1) 22%, rgba(217,0,0,1) 100%, rgba(255,0,0,1) 100%);
+        background: rgba(0, 0, 0, 0.773);
         border: 3px solid black;
         
     
@@ -494,7 +489,7 @@ max-height: 700px;
     .lead{
 
     
-        border: 3px solid rgb(248, 38, 38);
+        border: 3px solid rgb(0, 0, 0);
         margin: auto;
         width: min-content;
         padding: 10px;
