@@ -305,8 +305,7 @@ max-height: 700px;
     }
 
     .lead{
-
-    
+        
         border: 3px solid rgb(248, 38, 38);
         margin: auto;
         width: min-content;
@@ -516,6 +515,7 @@ max-height: 700px;
     }
     .lead.center{
     
+
     
     }
     .arr{
