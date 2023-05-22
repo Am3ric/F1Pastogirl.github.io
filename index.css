@@ -192,7 +192,7 @@ max-height: 700px;
       }
 
 
- @media only screen and (min-width: 592px){
+@media only screen and (min-width: 592px) and (max-width: 768px){
 
     /* stili CSS da applicare quando la larghezza dello schermo supera i 900 px */
 
@@ -508,9 +508,12 @@ max-height: 700px;
     .lead.left{
         margin-left: 50%;
     }
+    .lead.right2{
+        
+    }
     .lead.center{
     
-
+        
     
     }
     .arr{
